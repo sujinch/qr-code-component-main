@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 0.6875rem; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    justify-content: center;
+}
+
+/*Card container*/
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;  
+    align-items: center; 
+}
+
+/*Qr Code image*/
+#qrImg{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+/*Text content*/
+.card__content{
+    width: 288px;
+    height: 131px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;  
+    align-items: center; 
+}
+
+/*Card title*/
+.card__content h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 12px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 256px;
+}
+
+/*Card description*/
+.card__content p{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    max-width: 256px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Responsive design for smaller screens*/
+@media screen and (max-width: 375px) {
+    .container{
+        width: 320px;
+        height: 540px;
+    }  
+    
+    .card__content{
+        width: 288px;
+        height: 172px;
+    }
+
+    .card__content p{
+        font-size: 22px;
+    }
+    
+    
+}
