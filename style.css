@@ -12,6 +12,10 @@
      color: hsl(228, 45%, 44%);
 }
 
+footer{
+    margin-top: 20px;
+}
+
 .outfit {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -21,6 +25,7 @@
 
 
 body{
+    display: grid;
     background-color: hsl(212, 45%, 89%);
     align-items: center;
     justify-content: center;
@@ -61,10 +66,10 @@ body{
 
 /*Card title*/
 .card__content h1{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    margin-bottom: 12px;
+    margin-bottom: 0.9375rem;
     font-family: "Outfit", sans-serif;
     text-align: center;
     margin-left: auto;
@@ -75,13 +80,13 @@ body{
 /*Card description*/
 .card__content p{
     font-family: "Outfit", sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 1.5;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
     text-align: center;
     max-width: 256px;
-    margin-top: 12px;
+    margin-top: 0.9375rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -96,11 +101,5 @@ body{
     .card__content{
         width: 288px;
         height: 172px;
-    }
-
-    .card__content p{
-        font-size: 22px;
-    }
-    
-    
+    }  
 }

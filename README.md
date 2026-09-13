@@ -19,9 +19,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-Desctop design: screenShots/DesctopDesign.png
-Mobile design: screenShots/MobileDesign.jpg
-
+```html
+<!-- Desktop design--> <img src="screenShots/DesctopDesign.png">
+<!-- Mobile design--> <img src="screenShots/MobileDesign.png">
+```
 
 ### Links
 
@@ -84,4 +85,4 @@ both tools worked really well for me.
 
 ## Author
 
-- Frontend Mentor - [@Sujinch](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Sujinch](https://www.frontendmentor.io/profile/sujinch)
