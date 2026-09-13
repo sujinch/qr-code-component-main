@@ -28,7 +28,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Solution URL: https://github.com/sujinch/qr-code-component-main.git
 - Live Site URL: https://sujinch.github.io/qr-code-component-main/
-
+                 
 ## My process
 
 I organized every thing inside div sections to make styling easier.
